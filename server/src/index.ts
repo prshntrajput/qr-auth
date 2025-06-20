@@ -10,6 +10,7 @@ import { validateAuthFields } from './middleware/validation';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db';
 
+dotenv.config();
 const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
@@ -19,7 +20,7 @@ const io = new Server(httpServer, {
   }
 });
 
-dotenv.config();
+
 
 app.use(cors());
 app.use(express.json());
