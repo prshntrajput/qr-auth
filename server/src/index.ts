@@ -17,7 +17,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: ["https://qr-auth-l7gu.vercel.app/", "https://qr-auth-lemon.vercel.app/"],
+    origin: ["https://qr-auth-l7gu.vercel.app", "https://qr-auth-lemon.vercel.app"],
     methods: ["GET", "POST"]
   }
 });
