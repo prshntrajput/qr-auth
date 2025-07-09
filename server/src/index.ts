@@ -11,16 +11,16 @@ import dotenv from 'dotenv';
 import { connectDB } from './config/db';
 
 dotenv.config();
+
 const app = express();
+
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: ["http://localhost:3000", "http://localhost:3002"],
+    origin: ["http://localhost:3000", "http://localhost:3001"],
     methods: ["GET", "POST"]
   }
 });
-
-
 
 app.use(cors());
 app.use(express.json());

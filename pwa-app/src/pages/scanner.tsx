@@ -1,5 +1,6 @@
+"use client"
 import { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import QRScanner from '../components/QrScanner';
 import { initSocket } from '../socket/socket';
 

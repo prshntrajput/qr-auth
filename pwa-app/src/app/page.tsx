@@ -26,6 +26,8 @@ export default function Home() {
         <p className="text-gray-600 mb-8">
           Scan QR codes from web applications to authenticate securely
         </p>
+     <div>
+    
         
         <Link 
           href="/scanner"
@@ -33,6 +35,9 @@ export default function Home() {
         >
           Start Scanning
         </Link>
+
+        </div>
+
         
         <div className="mt-8 text-sm text-gray-500">
           <p>Install this app on your device for quick access</p>
