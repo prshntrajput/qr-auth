@@ -5,7 +5,9 @@ A full-stack web application that allows users to authenticate using QR codes. T
 - A **Web UI (Next.js)** for generating and scanning QR codes
 - A **PWA (Progressive Web App)** for scanning QR codes and authenticating users
 - A **Backend (Node.js + Express + Socket.IO)** for managing sessions and real-time communication
-
+- 
+  [SCANNER LINK](https://qr-auth-lemon.vercel.app/)
+   [CODE LINK](https://qr-auth-l7gu.vercel.app/)
 ---
 
 ## 🚀 Features
